@@ -9,13 +9,20 @@ public class Task1 {
         System.out.println("Enter the string of characters: ");
         String line = reader.readLine();
         int sum = 0;
+        StringBuilder sb = new StringBuilder();
         for (int i = 0; i < line.length(); i++) {
             char ch = line.charAt(i);
             if (Character.isDigit(ch)) {
-                int intNumber = Character.getNumericValue(ch);
-                sum = sum + intNumber;
+                sb.append(ch);
+            } else {
+                if (sb.length() > 0) {
+                    sum += Integer.parseInt(sb.toString());//increase sum based on current number
+                    sb.delete(0, sb.length()); // reset buffer for new number
+                }
             }
         }
-        System.out.println("sum of digits = " + sum);
+        if (sb.length() > 0)
+            sum += Integer.parseInt(sb.toString());
+        System.out.println(sum);
     }
 }
