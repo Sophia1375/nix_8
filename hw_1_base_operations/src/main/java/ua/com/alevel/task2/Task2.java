@@ -29,6 +29,5 @@ public class Task2 {
         for (Map.Entry<Character, Integer> keyValue : list) {
             System.out.println(keyValue.getKey() + ":" + keyValue.getValue());
         }
-
     }
 }

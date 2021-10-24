@@ -5,12 +5,12 @@ import java.io.IOException;
 import java.time.LocalTime;
 
 public class Task3 {
+
     public void run(BufferedReader reader) throws IOException {
         System.out.println("Task3.run");
         System.out.println("Enter lesson's number: ");
         countLessonsEndDuration(reader);
     }
-
 
     public static void countLessonsEndDuration(BufferedReader reader) throws IOException {
         int lessonCount = Integer.parseInt(reader.readLine());

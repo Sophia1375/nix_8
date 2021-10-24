@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 
 public class Task1 {
+
     public void run(BufferedReader reader) throws IOException {
         System.out.println("Task1.run");
         System.out.println("Enter the string of characters: ");
