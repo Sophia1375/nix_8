@@ -7,3 +7,11 @@ hw_2 = 7
 неплохо, но у тебя отсутствует библиотека stringreverse.jar
 
 module_1 = 7
+
+hw_3 = 9
+hw_4 = 8
+
+ua/com/alevel/entity/Student.java:9
+ua/com/alevel/entity/Course.java:8
+
+ужас))
