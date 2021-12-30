@@ -7,6 +7,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 class UniqueNameFinderTest {
+
     @Test
     void findUniqueName() {
         final UniqueNameFinder uniqueNameFinder = new UniqueNameFinder();
@@ -14,7 +15,6 @@ class UniqueNameFinderTest {
         final String uniqueName = uniqueNameFinder.findUniqueName(strings);
         assertEquals("Sophia", uniqueName);
     }
-
 
     @Test
     void NotFoundUniqueName() {

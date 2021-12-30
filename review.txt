@@ -15,3 +15,9 @@ ua/com/alevel/entity/Student.java:9
 ua/com/alevel/entity/Course.java:8
 
 ужас))
+
+hw_5 = 9
+
+module_2 = 8
+
+оч хорошо, даже тесты!) ... с поиском оптимального не получилось?
